@@ -1,0 +1,94 @@
+@media (max-width: 1280px){
+
+}
+
+@media (max-width: 767px){
+    .bolaPersonagens{
+        width: 110px;
+        height: 80px;
+        border-radius: 150px;
+        border:5px inset #f8f9fcaa;
+        padding:0px;
+        box-sizing:border-box;
+        margin-top: -10px;
+        margin-left: -80px;
+    }
+
+    .personagens-grandes{
+        width: 400px;
+        height: 480px;
+        margin-left: -110px;
+        margin-top: 70px;
+        animation: animatePesonagem 1s  ;
+      
+       }
+    
+    .menuHorizontal{
+  
+        width: 220%;
+        overflow: hidden;
+        margin-top: 440px;
+        margin-left: -110px;
+        padding: 25px;
+       
+       
+      }
+
+      .menuHorizontal ul li{
+          z-index: 5;
+        display: inline-block;
+        max-width: 100%;
+       box-sizing: border-box;
+        text-align: center;
+        padding: 10px;
+        
+       
+        
+      }
+
+      
+    .menuHorizontalzoe{
+  
+        width: 220%;
+        overflow: hidden;
+        margin-top: 440px;
+        margin-left: -110px;
+       
+       
+       
+      }
+
+      .menuHorizontalzoe ul li{
+          z-index: 5;
+        display: inline-block;
+        max-width: 100%;
+       box-sizing: border-box;
+        text-align: center;
+        padding: 30px;
+        
+       
+        
+      }
+
+
+      .bolaPersonagensVerticalzoe{
+        width: 70px;
+        height: 140px;
+        background: linear-gradient(0deg, rgba(236, 7, 144, 0.178) 0%, rgb(250, 18, 157) 100%);
+    
+        
+      }
+
+      .bolaPersonagensVertical{
+        width: 75px;
+        height: 120px;
+        background: linear-gradient(0deg, rgba(236, 209, 7, 0.178) 0%, rgb(246, 250, 18) 100%);
+      
+      }
+
+@media(max-width: 360px){
+    .cabecalho .titulo{
+        font-size: 19px;
+    }
+}
+}

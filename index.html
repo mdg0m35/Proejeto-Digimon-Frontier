@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   <!--Css-->
+   <link rel="stylesheet" href="./css/estilo.css">
+   <link rel="stylesheet" href="./css/responsivo.css">
+  
+    <title>Digimon Frontier</title>
+</head>
+<body class="cor3peson">
+  <div class="container">
+   <header>
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+          <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagens/Slide/slide1s.jpg" class="img-fluid w-100 d-none d-md-block " alt="" >
+            <img src="./imagens/Slide/slide1.jpg" class="img-fluid d-block d-md-none " alt="" >
+
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/Slide/slide2.jpg"class="img-fluid w-100 d-none d-md-block "alt="">
+            <img src="./imagens/Slide/slide2.jpg" class="img-fluid d-block d-md-none " alt="" >
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/Slide/slide3.jpg" class="img-fluid w-100 d-none d-md-block "alt="">
+            <img src="./imagens/Slide/slide3.jpg" class="img-fluid d-block d-md-none " alt="" >
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only" style="color: black; background-color: aliceblue;">Voltar</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"style="color: black; background-color: aliceblue;">Proximo</span>
+        </a>
+     
+      </div>     
+   </header>
+  </div>
+
+  <main>
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="personagens selecionado" >
+          <h1 id="nome-digimon">Takuia</h1>
+          <img class="personagens-grandes" src="./imagens/Takuya Kanbara.png" id="personagem-grande" alt="">
+          <audio id="audio" src="./audio/click.wav"></audio>
+        </div>
+      </div><!--Personagens Grandes-->
+      <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+       
+          <div class="menuHorizontal">
+            <ul>
+              <li class="personagem" id="agunimon"  data-name="Agunimon">
+                <h4>Agunimon</h4>
+                <img class="bolaPersonagens bolaPersonagensVertical" src="./imagens/agunimon.png"  id="agunimon" alt="Agunimon" >
+              </li>
+              <li  class="personagem" id="BurningGreymon"  data-name="Burning Greymon">
+                <h4>Burning Greymon</h4>
+                <img class="bolaPersonagens bolaPersonagensVertical" src="./imagens/BurningGreymon.png"  id="burninggreymon" alt="Burning Greymon" >
+              </li>
+              <li  class="personagem" id="EmperorGreymon" data-name="Emperor Greymon">
+                <h4>Emperor Greymon</h4>
+                <img class="bolaPersonagens bolaPersonagensVertical" src="./imagens/EmperorGreymon.png"  id="emperorgreymon" alt="Emperor Greymon"  >
+              </li>
+            </ul>
+          </div>
+      </div><!--Menu Horizontal-->
+      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="menuvertical">
+          <div class="sidebar">
+            <ul>
+              <li>
+                <a href="./index.html"><img class="bolaPersonagens" src="./imagens/Takuya Kanbara.jpg" alt="Takuya" ></a>
+              </li><br>
+              <li> 
+                <a href="koji.html"><img class="bolaPersonagens" src="./imagens/Koji Minamoto.jpg" alt="Koji" ></a>
+               </li><br>
+              <li>
+                <a href="./koichi.html"><img class="bolaPersonagens" src="./imagens/KoichiKimura.png" alt="Koich" ></a>
+              </li>
+              <li><br>
+                <a href="j.p.html"><img class="bolaPersonagens" src="./imagens/jpFundo.png" alt="J.P" ></a>
+              </li>
+              <li><br>
+                <a href="zoe.html"><img class="bolaPersonagens" src="./imagens/zoeOrimoto.png" alt="Zoe" ></a>
+              </li><br>
+              <li>
+                <a href="tomki.html"><img class="bolaPersonagens" src="./imagens/Tomoki-b.jpg" alt="Tomoki" ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div><!--Menu vertical-->
+    </div><!--row-->
+  </main>
+  <script src="./js/index.js"></script>
+</body>
+</html>
